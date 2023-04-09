@@ -1,5 +1,5 @@
 import { HttpPostClient, HttpStatusCode } from "@/data/protocols/http"
-import { HttpPostClientSpy } from "@/tests/data/mock-http-client"
+import { HttpPostClientSpy } from "@/../tests/data/mock/mock-http-client"
 import { UnexpectedError, InvalidCredentialsError } from "@/domain/errors"
 import { mockAccountModel, mockAuthentication } from "@/tests/data/domain/mock-account"
 
